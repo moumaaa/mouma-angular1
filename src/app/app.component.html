@@ -1,0 +1,23 @@
+<h1>i am {{name}}
+and i stay in {{location}}
+</h1>
+
+<br>
+<button (click)="f1()">CLICK ME</button>
+<br>
+<label>
+  User name:
+  <input type="text"[formControl]="uname">
+</label>
+
+<br>
+<p>
+  User name is: {{uname.value}}
+</p>
+
+<p>
+  <button (click)="update()">CLICK FOR CHANGING TO mouma</button>>
+</p>
+<hr>
+<br>
+<app-another></app-another>
